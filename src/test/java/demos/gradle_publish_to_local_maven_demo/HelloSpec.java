@@ -1,4 +1,4 @@
-package my;
+package demos.gradle_publish_to_local_maven_demo;
 
 import org.junit.Test;
 

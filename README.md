@@ -1,22 +1,17 @@
-Gradle Test
-==========
+Gradle Publish to Local Maven Demo
+===================================
 
-A very simple java project with gradle.
-
-Run tests:
+How to publish current project to local maven repository `~/.m2`
 
 ```
-./gradlew test
+./gradlew install
 ```
 
-Setup in IDEA
---------------
+You will find the generated files under `~/.m2/repository/demos/gradle-publish-to-local-maven-demo/0.1.0`.
 
-Use command line:
+Keys
+----
 
-```
-idea .
-```
-
-Or import the project directly with IDEA.
-
+- `apply plugin: 'maven'`
+- `group = "demos"`
+- `version = "0.1.0"`
